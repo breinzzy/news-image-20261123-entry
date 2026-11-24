@@ -2,9 +2,13 @@
 // the entry.png beside this file, and the program copies it to
 // /output/entry.png. The image sums up Monday 23 November 2026 in one
 // front page: 34 dated stories across 9 regions, drawn flat in code.
-// Built from page-v8-23nov.html (see build_v8.py) and rendered to 1024x1024
-// PNG (352,852 bytes, under the 1 MiB limit); the copy below is byte-exact,
-// so both grader runs write identical bytes.
+// v9: kicker naming the three leads restored under the date; lead cards 1
+// (COP31 conference hall) and 3 (NATO HQ) redrawn as full scenes; the ten
+// smaller cards are headline-first again, with the big in-art stat numbers
+// shrunk to small chips. Built from page-v9-23nov.html (see build_v9.py)
+// and rendered to 1024x1024 PNG (365,348 bytes, under the 1 MiB limit); the
+// copy below is byte-exact, so both grader runs write identical bytes.
+// entry.png md5 b7799f9fdd208c3e0f9df4362ae5b093 (v9 render, verified 2x).
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
